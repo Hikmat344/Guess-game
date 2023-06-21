@@ -12,12 +12,12 @@ var userscore=0;
 
 const sleep = ()=>{
     return new Promise( (res)=>{
-        setTimeout(res, 3000);
+        setTimeout(res, 5000);
     })
 }
 
 async function welcome() {
-    let title = chalkAnimation.rainbow("Let's start game...");
+    let title = chalkAnimation.rainbow("Let's start the game...");
     await sleep();
     title.stop();
 }
